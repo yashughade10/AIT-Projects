@@ -1,4 +1,4 @@
-#AIT-Projects
+# AIT-Projects
 
 ## Description :
 This repository contains JavaScript projects developed as part of training.
