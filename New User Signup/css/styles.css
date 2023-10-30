@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins&family=Roboto:wght@400;500&family=Volkhov&display=swap');
+
+body {
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 400px;
+    padding: 20px 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.data {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    border: none;
+    outline: none;
+}
+
+#fName,
+#uName,
+#eMail,
+#pWord,
+#mobile,
+#pCard {
+    border: 2px solid gray;
+}
+
+p {
+    margin-top: -20px;
+    font-size: 12px;
+    width: 300px;
+    margin-left: 40px;
+    display: none;
+}

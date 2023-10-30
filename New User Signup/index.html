@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Signup</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <h1>New User Signup</h1>
+    <div class="container">
+        <div class="heading">
+        </div>
+        <div class="data">
+            <input type="text" name="fName" id="fName" placeholder="FirstName" onkeyup="checkName()">
+            <p id="fNameText">FirstName should contain 5-15 characters</p>
+
+            <input type="text" name="uName" id="uName" placeholder="username" onkeyup="checkuserName()">
+            <p id="uNameText">Username should contain 5-15 characters</p>
+
+            <input type="email" name="eMail" id="eMail" placeholder="email" onkeyup="checkeMail()">
+            <p id="eMailText">Email must be a valid address, e.g. me@mydomain.com</p>
+
+            <input type="password" name="pWord" id="pWord" placeholder="password" onkeyup="checkPassword()">
+            <p id="pWordText">Password must alphanumeric (@,_ and - are also allowed) and be 8-20 characters</p>
+
+            <input type="number" name="mobile" id="mobile" placeholder="telephone" onkeyup="checkNumber()">
+            <p id="mobileText">Telephone must be a valid Indian telephone number(10 digits)</p>
+
+            <input type="text" name="pCard" id="pCard" placeholder="panCard" onkeyup="checkPAN()">
+            <p id="pCardText">Must be a valid panCard Number</p>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
